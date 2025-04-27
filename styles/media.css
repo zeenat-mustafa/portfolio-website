@@ -32,6 +32,11 @@
     --scroll-thumb-hover-color: #454f6b;
 }
 
+.dark-theme {
+    /* Color filter */
+    --color-filter: invert(1);
+}
+
 /* Media query max-width 1070px */
 @media screen and (max-width: 1070px) {
     .navigation {
@@ -101,5 +106,35 @@
         height: 40px;
         cursor: pointer;
         display: block;
+    }
+
+    /* Home Section */
+    .home .home-container .info {
+        font-size: 0.85rem;
+    }
+
+    /* About Section */
+    .about .container .content {
+        display: grid;
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    .about-img img {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .about-info {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .about-info .professional-list {
+        flex-direction: column;
+    }
+
+    .about-info .professional-list .list-item {
+        justify-content: start;
     }
 }
