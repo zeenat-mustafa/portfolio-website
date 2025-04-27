@@ -142,6 +142,10 @@ header.sticky .nav-bar {
     font-weight: 500;
 }
 
+.nav-items a.active {
+    color: var(--second-color);
+}
+
 .nav-items a:not(:last-child) {
     margin-right: 50px;
 }
