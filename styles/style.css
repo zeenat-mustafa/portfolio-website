@@ -202,6 +202,10 @@ header.sticky .nav-bar {
     color: var(--second-color);
 }
 
+.nav-menu-btn {
+    display: none;
+}
+
 /* Home section */
 .home {
     position: relative;
@@ -1082,6 +1086,6 @@ footer a {
 }
 
 /* Media query max-width 1070px */
-@media screen and (max-width: 1070px){
+/* @media screen and (max-width: 1070px){
 
-}
+} */
